@@ -23,9 +23,15 @@ a{
 input{
     line-height: normal;
 }
-input {
+input{
     margin: 0;
     vertical-align: middle;
+}
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border: 0;
 }
 .box-header {
     background-color: #fff;
@@ -43,8 +49,11 @@ input {
     display: flex;    
     width: 100%;
     height: 80px;
-    background-color: #ffffff;
+    background-color: #ffff;
     flex-direction: column;    
+}
+.Pr {
+    position: relative;
 }
 .Cn {
     padding-top: 4px;
@@ -55,6 +64,9 @@ input {
 }
 .Al {
     align-items: center;
+}
+.Jc {
+    justify-content: center;
 }
 .Fr {
     display: flex;
@@ -75,6 +87,13 @@ input {
 .Hg {
     height: 100%;
 }
+.Hw {
+    height: 100%;
+    width: 100%;
+}
+.BrI {
+    border-radius: 50%;
+}
 .sh:hover {
     background-color: #efefef;
 }
@@ -91,17 +110,13 @@ input {
     width: 100%;
     height: 56px;
 }
-.nav .logo {
-    height: 48px;
-    width: 48px;
-    justify-content: center;
-    padding-left: 4px;
-    padding-right: 4px;
-    border-radius: 50%;
-}
 .nav .nav-box-text {
     height: 48px;
     border-radius: 24px;
+}
+.logb {
+    height: 30px;
+    width: 30px;
 }
 .Th:hover {
     background-color: rgb(255, 255, 255);
@@ -134,8 +149,7 @@ input {
     height: 100%;
     position: relative;
     background-color: #efefef;
-    border-radius: 24px;
-    
+    border-radius: 24px;  
 }
 .input-search {
     background-color: transparent;
@@ -148,8 +162,8 @@ input {
     padding: 0;
     width: 100%;
 }
-.in:hover {
-    background-color: #d2cccc;
+.Ibh:hover {
+    background-color: #efefef;
 }
 .ico-search {
     display: block;
@@ -172,7 +186,7 @@ input {
     border-radius: 24px;
 }
 .bhF:hover {
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 0, 0, .06);
 }
 .Bf {
     border-radius: 24px;
@@ -195,4 +209,54 @@ input {
     font-size: 14px;
     word-wrap: break-word;
     font-weight: 700;
+}
+.Il {
+    height: 48px;
+    width: 48px;
+}
+.Aic {
+    display: block;
+}
+.Ilb {
+    border: 2px solid #111111;
+    height: 30px;
+    width: 30px;
+}
+.In {
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+}
+.Inb {
+    overflow: hidden;
+    will-change: transform;
+}
+.Im {
+    background-color: #efefef;
+    padding-bottom: 100%;
+}
+.icoIm {
+    color: transparent;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.btnD {
+    display: block;
+    border: 0;
+    padding: 0;
+    background: transparent;
+}
+.BbtnD {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    background-color: transparent;
+}
+.svgD {
+    display: block;
+    color: #767676;
+    fill: currentColor;
+    stroke-width: 0;
 }
